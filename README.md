@@ -1,3 +1,5 @@
+**참고:** 최초 실험은 Jupyter Notebook 환경에서 진행했습니다. 본 저장소는 코드의 가독성과 재현성을 높이기 위해 기존 실험 코드를 리팩토링한 버전입니다.
+
 # Diffusion Models for Image Inverse Problems
 
 A small from-scratch diffusion project exploring how measurement guidance and sampling steps affect image reconstruction. A time-conditioned U-Net is trained on Fashion-MNIST; DDIM sampling is used for center-mask inpainting and Gaussian deblurring.
